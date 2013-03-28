@@ -1,3 +1,5 @@
+![Connexions](https://trac.rhaptos.org/trac/rhaptos/raw-attachment/wiki/Images/cnx-apis-01.png)
+
 Create new services for content transformation
 ===
 
