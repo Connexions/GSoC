@@ -1,4 +1,3 @@
-
 ## Rich Content Query and Mining
 
 Connexions has semantically rich content; why not let people run queries against it! Want to know how many exercises we have on Optics? Or which prerequisites could be read before reading a section of a book? We do too! In this project we wish to extend and integrate prototyped client-side visualization libraries with a live backend, to increase performance and enable “what if” realtime queries. New backend useful to drive alternative content viewing/using apps in the mobile space (see QuizCards)
@@ -27,6 +26,29 @@ Some ideas of CSS features to implement:
 
 **Prototype:** https://github.com/philschatz/oer.epubcss
 **Tools:** LessCSS parser, node.js, PhantomJS
+
+
+## Enhance HTML5 Editor For Editing of OpenStax College Textbooks
+
+
+Connexions is enhancing the Aloha editor to allow the semantic editing needed for textbooks.  The OpenStax College textbooks have special features that will require additional enhancements to Aloha.  The enhancements are
+
+- Create an Aloha plugin for inserting XML Processing Instructions
+- Enhance the Note plugin to allow additional class attributes to be added - See this mockup (http://mountainbunker.org/~maxwell/oerpub/editor-ideas/editor-38.html)  for ideas about how a class attribute change could be handled in a "Note to Reader". If you drag in a Note to Reader, click on the little label that says "Note" and you can switch it out. For attributes that will affect display, this same technique can be used. 
+- Enhance Section headers so class attributes can be added
+
+Relevant Links
+
+- Demo of Editor: http://wysiwhat.github.com/Aloha-Editor/cnx/
+- Editor Code: https://github.com/wysiwhat/Aloha-Editor
+- Aloha Editor Home: http://aloha-editor.org/
+- OpenStax College: http://openstaxcollege.org/
+
+Skills Needed
+
+- Strong Javascript skills
+- HTML5
+- CSS
 
 
 ## Integrate an annotation tool with the editor
@@ -86,30 +108,6 @@ Transformation Services Code:
 
 - XML
 - Python
-
-
-
-## Enhance HTML5 Editor For Editing of OpenStax College Textbooks
-
-
-Connexions is enhancing the Aloha editor to allow the semantic editing needed for textbooks.  The OpenStax College textbooks have special features that will require additional enhancements to Aloha.  The enhancements are
-
-- Create an Aloha plugin for inserting XML Processing Instructions
-- Enhance the Note plugin to allow additional class attributes to be added - See this mockup (http://mountainbunker.org/~maxwell/oerpub/editor-ideas/editor-38.html)  for ideas about how a class attribute change could be handled in a "Note to Reader". If you drag in a Note to Reader, click on the little label that says "Note" and you can switch it out. For attributes that will affect display, this same technique can be used. 
-- Enhance Section headers so class attributes can be added
-
-Relevant Links
-
-- Demo of Editor: http://wysiwhat.github.com/Aloha-Editor/cnx/
-- Editor Code: https://github.com/wysiwhat/Aloha-Editor
-- Aloha Editor Home: http://aloha-editor.org/
-- OpenStax College: http://openstaxcollege.org/
-
-Skills Needed
-
-- Strong Javascript skills
-- HTML5
-- CSS
 
 
 ## Book Editing on Github
